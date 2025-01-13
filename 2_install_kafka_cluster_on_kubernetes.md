@@ -15,10 +15,6 @@ CHART NAME: kafka
 CHART VERSION: 31.2.0
 APP VERSION: 3.9.0
 
-Did you know there are enterprise versions of the Bitnami catalog? For enhanced secure software supply chain features, unlimited pulls from Docker, LTS support, or application customization, see Bitnami Premium or Tanzu Application Catalog. See https://www.arrow.com/globalecs/na/vendors/bitnami for more information.
-
-** Please be patient while the chart is being deployed **
-
 Kafka can be accessed by consumers via port 9092 on the following DNS name from within your cluster:
 
     kafka.default.svc.cluster.local

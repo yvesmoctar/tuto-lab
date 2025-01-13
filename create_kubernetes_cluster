@@ -1,1 +1,11 @@
+1. install Docker Desktop
+2. install Homebrew for package installation
+3. install minikube -> brew install minikube
+4. install kubernetes command tools kubectl -> brew install kubectl
+5. start minikube -> minikube start --driver=docker
+6. install helm for deploy kubernetes pre-build package -> brew install helm
+7. install kafka cluster on kubernetes -> helm install kafka oci://registry-1.docker.io/bitnamicharts/kafka
+8. to stop kubernetes cluster -> minikube stop
+
+
 

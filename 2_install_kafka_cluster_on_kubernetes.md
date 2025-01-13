@@ -1,7 +1,6 @@
 1. install helm for deploy kubernetes pre-build package -> brew install helm
 2. install kafka cluster on kubernetes -> helm install kafka oci://registry-1.docker.io/bitnamicharts/kafka
 
-### Info from bitnamicharts ###
 
 Pulled: registry-1.docker.io/bitnamicharts/kafka:31.2.0
 Digest: sha256:09a158546881ebf8e6ac19d0803310a190f4305660ca2fadf35aa72a51dddf94

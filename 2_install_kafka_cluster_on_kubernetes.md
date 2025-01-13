@@ -39,7 +39,7 @@ security.protocol=SASL_PLAINTEXT
 sasl.mechanism=SCRAM-SHA-256
 sasl.jaas.config=org.apache.kafka.common.security.scram.ScramLoginModule required \
     username="user1" \
-    password="$(kubectl get secret kafka-user-passwords --namespace default -o jsonpath='{.data.client-passwords}' | base64 -d | cut -d , -f 1)";  nL6v0JX10H%
+    password="$(kubectl get secret kafka-user-passwords --namespace default -o jsonpath='{.data.client-passwords}' | base64 -d | cut -d , -f 1)";
 
 To create a pod that you can use as a Kafka client run the following commands:
 
